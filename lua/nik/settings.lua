@@ -17,6 +17,7 @@ local opt = {
 	laststatus = 3, -- Set status line to global
 	copyindent = true, -- Copy the previous indentation on autoindenting
 	signcolumn = 'yes',
+	pumheight = 10, -- Height of the pop up menu
 }
 
 local g = {

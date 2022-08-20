@@ -1,0 +1,6 @@
+require('nik.colorscheme')
+require('nik.settings')
+require('nik.packer')
+require('nik.plugins')
+require('nik.settings')
+require('nik.keymaps')
