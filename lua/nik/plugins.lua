@@ -10,6 +10,7 @@ local plugins = {
 
   -- Colorscheme
   ['rebelot/kanagawa.nvim'] = {},
+  ['EdenEast/nightfox.nvim'] = {},
 
   -- Neovim UI Enhancer
   -- ['stevearc/dressing.nvim'] = {
@@ -144,6 +145,12 @@ local plugins = {
   -- Fuzzy finder
   ['nvim-telescope/telescope.nvim'] = {
     config = function() require 'nik.configs.telescope' end,
+  },
+
+
+  -- Status line
+  ['feline-nvim/feline.nvim'] = {
+    config = function() require 'nik.configs.feline' end,
   },
 }
 
