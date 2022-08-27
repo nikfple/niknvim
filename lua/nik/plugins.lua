@@ -147,10 +147,24 @@ local plugins = {
     config = function() require 'nik.configs.telescope' end,
   },
 
-
   -- Status line
   ['feline-nvim/feline.nvim'] = {
     config = function() require 'nik.configs.feline' end,
+  },
+
+  -- Autopairs
+  ['windwp/nvim-autopairs'] = {
+    config = function() require 'nik.configs.autopairs' end,
+  },
+
+  -- Smarter Splits
+  ['mrjones2014/smart-splits.nvim'] = {
+    config = function() require 'nik.configs.smart-splits' end,
+  },
+
+  -- Terminal
+  ["akinsho/toggleterm.nvim"] = {
+    config = function() require 'nik.configs.toggleterm' end,
   },
 }
 
